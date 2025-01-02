@@ -1,5 +1,5 @@
 # Problemas de CD
-
+*Pretendo atualizar este repositório a medida em que resolvo mais problemas*
 1. **Crie uma rede neural simples utilizando apenas a biblioteca numpy**
 
    Isso inclui a implementação de propagação para frente e para trás.
