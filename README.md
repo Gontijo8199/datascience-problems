@@ -1,4 +1,4 @@
-# Problemas de CD
+# Problemas de Ciência de Dados
 *Pretendo atualizar este repositório a medida em que resolvo mais problemas*
 1. **Crie uma rede neural simples utilizando apenas a biblioteca numpy**
 
@@ -25,3 +25,11 @@
    - Use a Equação Normal para calcular a linha de melhor ajuste.
   
 4. **Reconhecimento de números desenhados a mão**
+
+   Kaggle: [Acesso](https://www.kaggle.com/competitions/digit-recognizer)
+
+6. **Predições acerca da sobrevivência de passageiros do Titanic**
+
+   Kaggle: [Acesso](https://www.kaggle.com/competitions/titanic) 
+
+### Resolvidos com amor por Rafael G Ferreira ❤️
