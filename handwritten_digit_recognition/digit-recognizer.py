@@ -2,13 +2,13 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
  
- '''
+'''
  
     https://www.kaggle.com/code/rgontijof/digit-recognizer-1
  
     https://www.kaggle.com/competitions/digit-recognizer
  
- '''
+'''
 
 data = pd.read_csv('train.csv').to_numpy()
 
