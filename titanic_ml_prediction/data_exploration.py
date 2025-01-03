@@ -46,6 +46,13 @@ titles = a_updated['Title'].unique()
 title_tokenizer = {title: idx for idx, title in enumerate(titles)}
 a_updated['Title'] = a_updated['Title'].map(title_tokenizer)
 
+
+a_updated['Cabin'] = a['Cabin'].fillna('0')  # handle missing values
+cabins = a_updated['Cabin'].unique()
+cabin_tokenizer = {cabin: idx for idx, cabin in enumerate(cabins)}
+a_updated['Cabin'] = a_updated['Cabin'].map(cabin_tokenizer)
+
+
 a_y = a_updated['Survived']
 a_X = a_updated.drop(columns='Survived', axis=1)
 
@@ -58,6 +65,12 @@ c_updated['Title'] = c['Name'].str.extract(r',\s*([^\.]*)\s*\.') # take tittles 
 titles = c_updated['Title'].unique()
 title_tokenizer = {title: idx for idx, title in enumerate(titles)}
 c_updated['Title'] = c_updated['Title'].map(title_tokenizer)
+
+
+c_updated['Cabin'] = c['Cabin'].fillna('0')  # handle missing values
+cabins = c_updated['Cabin'].unique()
+cabin_tokenizer = {cabin: idx for idx, cabin in enumerate(cabins)}
+c_updated['Cabin'] = c_updated['Cabin'].map(cabin_tokenizer)
 
 c_id = c_updated['PassengerId']
 
