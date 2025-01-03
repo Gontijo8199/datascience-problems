@@ -23,3 +23,5 @@
      - **y = 2x + 3** com um pouco de ruído aleatório adicionado.
    
    - Use a Equação Normal para calcular a linha de melhor ajuste.
+  
+4. **Reconhecimento de números desenhados a mão**
