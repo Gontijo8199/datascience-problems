@@ -25,7 +25,6 @@ def generator():
 
     print(f"Slope: {slope}, Intercept: {intercept}")
 
-    # Step 4: Plot the data and the regression line
     plt.scatter(x, y, label="Data", color="blue")
     plt.plot(x, slope * x + intercept, label="Best-fit Line", color="red")
     plt.xlabel("x")
