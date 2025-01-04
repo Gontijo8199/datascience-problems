@@ -2,6 +2,17 @@ import pandas as pd
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder
 
+
+'''
+
+https://www.kaggle.com/competitions/titanic
+
+https://www.kaggle.com/code/rgontijof/titanic-surviving-predictions
+
+made with love, by Rafael Gontijo
+
+'''
+
 a = pd.read_csv("train.csv")
 c = pd.read_csv("test.csv")
 

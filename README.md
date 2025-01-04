@@ -1,35 +1,9 @@
 # Problemas de Ciência de Dados
-*Pretendo atualizar este repositório a medida em que resolvo mais problemas*
-1. **Crie uma rede neural simples utilizando apenas a biblioteca numpy**
 
-   Isso inclui a implementação de propagação para frente e para trás.
 
-2. **Implemente o K-Vizinhos Mais Próximos (KNN) para Classificação**
+⚙️ Coletânea de problemas envolvendo modelos de aprendizado de máquina, como regressão XGBoost, regressão por florestas aleatórias, regressão linear, redes neurais, algoritmos KNN, entre outros.
 
-   - Crie um pequeno conjunto de dados sintético com duas classes:
-     - Características: pontos 2D (x, y).
-     - Rótulos: Classe 0 ou Classe 1.
+⚡ Repositório atualizado à medida que resolvo mais desafios.
 
-   - Escreva uma função para prever a classe de um novo ponto com base nos seus **k** vizinhos mais próximos no conjunto de dados:
-     - Utilize a distância Euclidiana para encontrar os vizinhos.
-     - Preveja a classe por meio de votação majoritária.
-
-   - Teste a implementação prevendo a classe de alguns pontos novos e visualize as fronteiras de decisão.
-
-3. **Ajuste uma Linha aos Dados Usando Regressão Linear**
-
-   - Gere um conjunto de dados sintético de valores de **x** e **y**:
-     - **x** é um conjunto de 10 números aleatórios entre 0 e 10.
-     - **y = 2x + 3** com um pouco de ruído aleatório adicionado.
-   
-   - Use a Equação Normal para calcular a linha de melhor ajuste.
-  
-4. **Reconhecimento de números desenhados a mão**
-
-   Kaggle: [Acesso](https://www.kaggle.com/competitions/digit-recognizer)
-
-6. **Predições acerca da sobrevivência de passageiros do Titanic**
-
-   Kaggle: [Acesso](https://www.kaggle.com/competitions/titanic) 
 
 ### Resolvidos com amor por Rafael G Ferreira ❤️

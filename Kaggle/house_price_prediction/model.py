@@ -7,7 +7,14 @@ from xgboost import XGBRegressor
 
 # import matplotlib.pyplot as plt
 # import seaborn as sns
+'''
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
+https://www.kaggle.com/code/rgontijof/house-price-prediction
+
+made with love, by Rafael Gontijo
+
+'''
 # Load datasets
 train = pd.read_csv('train.csv')
 test = pd.read_csv('test.csv')

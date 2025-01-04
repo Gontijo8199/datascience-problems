@@ -1,10 +1,19 @@
-# Rafael Gontijo Ferreira
-
 import numpy as np
 import pandas as pd
 import pickle
 import signal
 import sys
+
+'''
+ 
+    https://www.kaggle.com/code/rgontijof/digit-recognizer-1
+ 
+    https://www.kaggle.com/competitions/digit-recognizer
+    
+    made with love, by Rafael Gontijo
+
+ 
+'''
 
 # Funções auxiliares
 def ReLU(x):
